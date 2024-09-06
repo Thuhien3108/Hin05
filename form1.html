@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        div {
+            margin-left: 80px;
+        }
+        
+        input[type=text] {
+            border: 3px solid rebeccapurple;
+            background-color: grey;
+        }
+        
+        select {
+            background-color: palevioletred;
+            border: 3px solid greenyellow;
+            color: blue;
+        }
+        
+        input[type=submit] {
+            background-color: aqua;
+            border: 5px soid palevioletred;
+        }
+        
+        textarea {
+            background-color: rgb(245, 245, 140);
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h1> Personal Information </h1>
+        <label for="fname"><b> Your name:</b></label>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="sex"><b> Gender:</b></label>
+        <input type="radio" name="sex" value="Male">Male
+        <input type="radio" name="sex" value="Female">Female<br>
+
+        <b> Your Favorite:</b><br>
+        <div>
+            <input type="checkbox" name="cooking" value="Cooking">Cooking<br>
+            <input type="checkbox" name="cooking" value="Cooking">Singing<br>
+            <input type="checkbox" name="cooking" value="Cooking">Dancing<br>
+        </div>
+
+
+        <b> Your Country: </b>
+        <select name="Country">
+            <option value="Cambodia"> Cambodia</option>
+            <option value="Thailand"> Thailand</option>
+            <option value="Italy">Intaly</option>
+
+      </select>
+        </br>
+        <span id="add"> Address:</span><br/>
+        <textarea name="Address"> </textarea>
+        <br/>
+        <input type="submit" value="Send">
+        <button type="button" </form>
+
+</body>
+
+</html>

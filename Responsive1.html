@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+        
+        @media screen and (max-width: 960px) {
+            body {
+                background-color: red;
+                color: green;
+            }
+            img {
+                width: 900px;
+                height: 900px;
+            }
+            .color {
+                text-align: center;
+                background-color: black;
+            }
+            .h1 {
+                display: none;
+            }
+            .h2 {
+                display: block;
+            }
+            .h3 {
+                display: none;
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            body {
+                background-color: orange;
+            }
+            img {
+                width: 700px;
+                height: 700px;
+            }
+            .h1 {
+                display: none;
+            }
+            .h2 {
+                display: none;
+            }
+            .h3 {
+                display: block;
+            }
+        }
+        
+        @media screen and (max-width: 550px) {
+            body {
+                background-color: green;
+                color: brown;
+            }
+            img {
+                width: 390px;
+                height: 300px;
+            }
+            .h1 {
+                display: block;
+            }
+            .h2 {
+                display: none;
+            }
+            .h3 {
+                display: none;
+            }
+        }
+        
+        @media screen and (max-width:320px) {
+            body {
+                background-color: yellow;
+                color: indianred;
+                text-align: center;
+            }
+        }
+        
+        @media screen and (max-width:320px) {
+            img {
+                width: 200px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p class="color">Welcome</p>
+    <img class="h1" src="img/Meo-chup-anh-do-an-nhu-food-blogger.jpg">
+    <img class="h2" src="img/fall-autumn-red-season.jpg">
+    <img class="h3" src="img/fall-autumn-red-season.jpg">
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: white;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        .header {
+            background-color: rgb(187, 247, 98);
+            height: 80px;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            flex: 1;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 30px;
+            color: black;
+            font-size: 18px;
+        }
+        
+        .fashion img {
+            width: 100%;
+            height: auto;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="big">
+        <div class="header">
+            <h2>VTC Academy Fashion Week</h2>
+            <p>Resize this responsive page!</p>
+        </div>
+        <div class="container">
+            <div class="fashion">
+                <h4>korean</h4>
+                <p>Seoul is the capital city of Korean.</p>
+                <p>Seoul, the capital of South Korea, is a huge metropolis where modern skyscrapers, high-tech subways and pop culture meet Buddhist temples, palaces and street markets.</p>
+                <img src="https://piktina.com/wp-content/uploads/2023/09/380780654_840618170771664_9058845401389034901_n.jpeg" alt="">
+            </div>
+
+            <div class="fashion">
+                <h4>korean</h4>
+                <p>Seoul is the capital city of Korean.</p>
+                <p>Seoul, the capital of South Korea, is a huge metropolis where modern skyscrapers, high-tech subways and pop culture meet Buddhist temples, palaces and street markets.</p>
+                <img src="https://media.phunutoday.vn/files/content/2022/10/17/gu-thoi-trang-quay-ngoat-180-do-cua-rose-giua-xua-va-nay-658f3e-1602.jpg" alt="">
+            </div>
+
+            <div class="fashion">
+                <h4>korean</h4>
+                <p>Seoul is the capital city of korean.</p>
+                <p>Seoul, the capital of South Korea, is a huge metropolis where modern skyscrapers, high-tech subways and pop culture meet Buddhist temples, palaces and street markets.</p>
+                <img src="https://kenh14cdn.com/203336854389633024/2023/9/22/photo-4-16953689832041433221858.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

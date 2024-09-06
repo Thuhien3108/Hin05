@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: orange;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            display: flex;
+            padding: 20px;
+            gap: 10px;
+        }
+        
+        @media screen and (max-width: 739px) {
+            /* .T {
+                display: none;
+            } */
+            .container {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media screen and (max-width: 1023px) {
+            /* .P {
+                display: none;
+            } */
+            .container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="m"> Mobile </div>
+        <div class="T">Table </div>
+        <div class="P">Pc </div>
+    </div>
+
+
+</body>
+
+</html>
